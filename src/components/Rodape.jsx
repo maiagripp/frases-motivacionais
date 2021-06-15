@@ -13,6 +13,7 @@ function Rodape(props) {
       <p>
         <strong>Postado em: {data}</strong>
       </p>
+      <hr />
     </>
   );
 }
