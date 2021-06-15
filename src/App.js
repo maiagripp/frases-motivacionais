@@ -1,4 +1,3 @@
-import './App.css';
 import FraseMotivacional from './components/FraseMotivacional';
 
 function App() {
