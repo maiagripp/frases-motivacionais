@@ -1,10 +1,11 @@
 import './style.css';
+import Rodape from './Rodape';
 
 function FraseMotivacional(props) {
   return (
     <div>
-      <p className="frase">{props.frase}</p>
-      <p>{props.autor}</p>
+      <p className="frase">- "{props.frase}"</p>
+      <Rodape autor={props.autor} criadaEm={props.criadaEm} />
     </div>
   );
 }
