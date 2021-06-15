@@ -1,12 +1,10 @@
 import './style.css';
 
-function FraseMotivacional() {
+function FraseMotivacional(props) {
   return (
     <div>
-      <h2 className="frase">
-        A vingança nunca é plena, mata a alma e envenena.
-      </h2>
-      <h3>Seu Madruga</h3>
+      <p className="frase">{props.frase}</p>
+      <p>{props.autor}</p>
     </div>
   );
 }
