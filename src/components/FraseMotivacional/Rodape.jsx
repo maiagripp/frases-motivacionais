@@ -1,4 +1,4 @@
-function Rodape(props) {
+const Rodape = (props) => {
   const opcoes = {
     weekday: 'long',
     year: 'numeric',
@@ -15,6 +15,6 @@ function Rodape(props) {
       </p>
     </>
   );
-}
+};
 
 export default Rodape;

@@ -1,7 +1,7 @@
 import FraseMotivacional from './components/FraseMotivacional';
 import './App.css';
 
-function App() {
+const App = () => {
   const frases = [
     {
       texto: 'A vingança nunca é plena, mata a alma e envenena',
@@ -40,6 +40,6 @@ function App() {
       />
     </div>
   );
-}
+};
 
 export default App;
