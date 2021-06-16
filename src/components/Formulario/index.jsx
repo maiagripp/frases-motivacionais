@@ -27,11 +27,11 @@ const Formulario = ({ aoSalvar }) => {
     <form onSubmit={salvar}>
       <div className="formulario">
         <label>Autor</label>
-        <input value={autor} onChange={manipuladorAutor} />
+        <input value={autor} onChange={manipuladorAutor} required />
       </div>
       <div className="formulario">
         <label>Texto</label>
-        <textarea value={texto} onChange={manipuladorTexto}></textarea>
+        <textarea value={texto} onChange={manipuladorTexto} required></textarea>
       </div>
       <button>Salvar</button>
     </form>
